@@ -31,3 +31,7 @@ git merge readme --no-ff # readme 브랜치와 합치기(merge), --no-ff 옵션�
 git remote add origin 저장소-주소 # 원격 저장소 연결하기
 git remote -v # 현재 연결된 원격 저장소 확인
 git push origin master # 원격 저장소에 마스터 브랜치로 푸시
+```
+
+# LICENSE
+이 저장소는 WTFPL 라이선스에 의해 보호를 받습니다.
