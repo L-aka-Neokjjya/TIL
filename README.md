@@ -36,7 +36,10 @@ git push origin master # 원격 저장소에 마스터 브랜치로 푸시
 # LICENSE
 이 저장소는 WTFPL 라이선스에 의해 보호를 받습니다.
 
+<<<<<<< HEAD
 ## 머지하기
 ```bash
 git merge readme --no-ff
 ```
+=======
+>>>>>>> license
