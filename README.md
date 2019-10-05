@@ -33,13 +33,13 @@ git remote -v # 현재 연결된 원격 저장소 확인
 git push origin master # 원격 저장소에 마스터 브랜치로 푸시
 ```
 
-# LICENSE
-이 저장소는 WTFPL 라이선스에 의해 보호를 받습니다.
-
-<<<<<<< HEAD
-## 머지하기
+## 머지 충돌 고치기
 ```bash
-git merge readme --no-ff
+git status # 작업 디렉토리 상태 보여주기
+git add . # 전체 변경파일들 추가
+git commit -m "fix: 머지 오류 잡기" # 커밋하기
 ```
-=======
->>>>>>> license
+## 풀 리퀘스트 하기
+* 깃헙을 통해서 복사(fork)하고 싶은 저장소를 나의 저장소로 가져온다
+* 복사해온 저장소에 있는 파일을 수정하고 깃헙에서 커밋한다
+* ```Pull request``` 탭에서 초록색 버튼의 ```New pull request```를 누르면 ```Comepare changes```페이지로 이동한다. 그 다음 ```Create pull request``` 버튼을 누른다.
