@@ -19,3 +19,15 @@ git log --decoreate=full --oneline --graph # 커밋 로그 확인
 ```bash
 git checkout -b readme # 'readme'라는 이름의 브랜치를 생성한 후, 생성된 브랜치로 체크아웃
 ```
+
+## readme 브랜치와 master 브랜치를 합치기
+```bash
+git checkout master # master 브랜치로 체크아웃
+git merge readme --no-ff # readme 브랜치와 합치기(merge), --no-ff 옵션은 줄을 최대한 한 줄로 만들어주는 기능
+```
+
+## Github 저장소에 올리기
+```bash
+git remote add origin 저장소-주소 # 원격 저장소 연결하기
+git remote -v # 현재 연결된 원격 저장소 확인
+git push origin master # 원격 저장소에 마스터 브랜치로 푸시
